@@ -1,0 +1,45 @@
+Model Type : knn
+               precision    recall  f1-score    # docs
+
+      medical       5.56     15.00      8.11        20
+     business      57.14     20.00     29.63        20
+     graphics      24.24     80.00     37.21        20
+         food      75.00     30.00     42.86        20
+entertainment       0.00      0.00      0.00        20
+        space      11.76     20.00     14.81        20
+     politics      60.00     30.00     40.00        20
+        sport      76.92     50.00     60.61        20
+   historical      50.00      5.00      9.09        20
+  technologie       0.00      0.00      0.00        20
+     accuracy                          25.00       200
+
+Model Type : svm
+               precision    recall  f1-score    # docs
+
+      medical      52.63     50.00     51.28        20
+     business      65.00     65.00     65.00        20
+     graphics      57.14     60.00     58.54        20
+         food      72.73     80.00     76.19        20
+entertainment      85.00     85.00     85.00        20
+        space      70.00     70.00     70.00        20
+     politics      85.71     90.00     87.80        20
+        sport     100.00     85.00     91.89        20
+   historical      89.47     85.00     87.18        20
+  technologie      76.19     80.00     78.05        20
+     accuracy                          75.00       200
+
+Model Type : mlp
+               precision    recall  f1-score    # docs
+
+      medical      73.33     55.00     62.86        20
+     business      73.91     85.00     79.07        20
+     graphics      70.00     70.00     70.00        20
+         food      72.00     90.00     80.00        20
+entertainment      84.21     80.00     82.05        20
+        space      71.43     75.00     73.17        20
+     politics      77.27     85.00     80.95        20
+        sport      85.00     85.00     85.00        20
+   historical      88.24     75.00     81.08        20
+  technologie      77.78     70.00     73.68        20
+     accuracy                          77.00       200
+
